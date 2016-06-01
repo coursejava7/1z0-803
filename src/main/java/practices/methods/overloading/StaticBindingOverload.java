@@ -1,6 +1,6 @@
 package practices.methods.overloading;
 
-public class Overload05 {
+public class StaticBindingOverload {
 	
 	public static void method(Integer num) {
 		System.out.println("hello from method(Integer num)");
