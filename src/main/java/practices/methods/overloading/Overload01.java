@@ -13,7 +13,7 @@ public class Overload01 {
 	
 	public void method(String str){
 		this.str = str;
-		System.out.println(str);
+		System.out.println("Hello from overload01.method(String str)" + str);
 	}
 	
 	public void method(String str, String str2){

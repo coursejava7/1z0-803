@@ -4,7 +4,6 @@ public class StaticBindingOverload {
 	
 	public static void method(Integer num) {
 		System.out.println("hello from method(Integer num)");
-
 	}
 	
 	public static void method(Object str) {
@@ -12,11 +11,7 @@ public class StaticBindingOverload {
 	}
 	
 	public static void main(String[] args) {
-		Integer num = new Integer(10);
-		Object num2 = new Integer(12);
-		
+		Object num = new Integer(10);
 		method(num);
-		method(num2);
-		
 	}
 }
