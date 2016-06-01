@@ -27,6 +27,5 @@ public class ReturnClass extends BaseClass{
 		BaseClass bc = new BaseClass();
 		rc.miMethod(rc);
 		rc.miMethod(bc);
-		
 	}
 }
