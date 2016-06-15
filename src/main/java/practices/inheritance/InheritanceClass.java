@@ -16,7 +16,7 @@ class SuperUser extends User {
 	
 	public void sendEmail(String body) {
 		System.out.println("sending an email from SuperUser.sendEmail(String)");
-	}
+	}	
 }	
 	
 public class InheritanceClass {
