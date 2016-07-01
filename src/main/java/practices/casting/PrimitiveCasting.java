@@ -27,3 +27,5 @@ public class PrimitiveCasting {
 		double d3 = (d + d2); // The same than explained above about float variables.
 	}
 }
+
+
