@@ -7,7 +7,7 @@ public class StringMethodsTour {
 	
 	static void charAt(){
 		System.out.println(str.charAt(0));
-		System.out.println(str.charAt(str.length()));		
+		System.out.println(str.charAt(str.length() - 1 ));		
 	}
 	
 	static void indexOf(){
@@ -50,12 +50,12 @@ public class StringMethodsTour {
 	
 	public static void main(String[] args) {
 		
-		//charAt();
-		//indexOf();
-		//substring();
-		//replace();
-		//lenghtAndOthers();
-		//chainedExecution();
+		charAt();
+		indexOf();
+		substring();
+		replace();
+		lenghtAndOthers();
+		chainedExecution();
 		addingStrings();
 	}
 }
