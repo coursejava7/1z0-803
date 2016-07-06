@@ -1,4 +1,4 @@
-package practices.constructors;
+package practices.initblocks;
 
 public class InitBlockStackOverFlow {
 	
